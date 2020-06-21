@@ -12,4 +12,5 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf
+sed -i '$a src-git darkpro git://github.com/kuyokushin/luci-theme-darkpro.git' feeds.conf
+sed -i '$a src-git noodlesDark https://github.com/HDragon8/luci-theme-noodlesDark.git' feeds.conf
