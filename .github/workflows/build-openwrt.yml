@@ -23,7 +23,7 @@ on:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/project-openwrt/openwrt/tree/master
+  REPO_URL: https://github.com/project-openwrt/openwrt.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf
   CONFIG_FILE: .config
