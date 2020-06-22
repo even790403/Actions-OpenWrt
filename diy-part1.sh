@@ -1,16 +1,16 @@
-#!/bin/bash
-#=============================================================
-# https://github.com/P3TERX/Actions-OpenWrt
-# File name: diy-part1.sh
-# Description: OpenWrt DIY script part 1 (Before Update feeds)
-# Lisence: MIT
-# Author: P3TERX
-# Blog: https://p3terx.com
-#=============================================================
 
-# Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf
+＃！/ bin / bash
+＃ ================================================= ============
+＃https ://github.com/P3TERX/Actions-OpenWrt
+＃文件名：diy-part1.sh
+＃说明：OpenWrt DIY脚本第1部分（更新供稿之前）
+＃牌照：麻省理工学院
+＃作者：P3TERX
+＃博客：https：//p3terx.com
+＃ ================================================= ============
 
-# Add a feed source
-sed -i '$a src-git darkpro git://github.com/kuyokushin/luci-theme-darkpro.git' feeds.conf
-sed -i '$a src-git noodlesDark https://github.com/HDragon8/luci-theme-noodlesDark.git' feeds.conf
+＃取消注释供稿源
+＃ SED -i的/^#\(.*的HelloWorld \）/ \ 1 /'feeds.conf.default
+
+＃添加供稿源
+＃ sed的-i '$一个SRC-混帐lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
